@@ -14,6 +14,7 @@
 		092DC4E620C2AF5F00D43B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092DC4E420C2AF5F00D43B52 /* LaunchScreen.storyboard */; };
 		092DC4E920C2AF5F00D43B52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092DC4E820C2AF5F00D43B52 /* main.m */; };
 		092DC4F120C2B2FB00D43B52 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092DC4F020C2B2FB00D43B52 /* MapKit.framework */; };
+		092DC4F420C307ED00D43B52 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 092DC4F320C307ED00D43B52 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		092DC4E720C2AF5F00D43B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092DC4E820C2AF5F00D43B52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		092DC4F020C2B2FB00D43B52 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		092DC4F220C307ED00D43B52 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		092DC4F320C307ED00D43B52 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 		092DC4D820C2AF5E00D43B52 /* Using_UIMapViews */ = {
 			isa = PBXGroup;
 			children = (
+				092DC4F220C307ED00D43B52 /* MapPin.h */,
+				092DC4F320C307ED00D43B52 /* MapPin.m */,
 				092DC4D920C2AF5E00D43B52 /* AppDelegate.h */,
 				092DC4DA20C2AF5E00D43B52 /* AppDelegate.m */,
 				092DC4DC20C2AF5E00D43B52 /* ViewController.h */,
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092DC4F420C307ED00D43B52 /* MapPin.m in Sources */,
 				092DC4DE20C2AF5E00D43B52 /* ViewController.m in Sources */,
 				092DC4E920C2AF5F00D43B52 /* main.m in Sources */,
 				092DC4DB20C2AF5E00D43B52 /* AppDelegate.m in Sources */,
